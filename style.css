@@ -1,0 +1,42 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.btn-orange{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 18px 32px;
+    border-radius: 5px;
+}
+.dark2{
+    color: #474747;
+}
+#nav-title{
+    font-size: 45px;
+}
+.orange-color{
+    color: #FD6E0A;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+nav li{
+    font-weight: normal;
+    font-size: 20px;
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+}
