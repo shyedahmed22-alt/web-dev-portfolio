@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(248, 248, 248) ;
+}
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -25,6 +28,9 @@
 }
 .dark2{
     color: #474747;
+}
+.txt-center{
+    text-align: center;
 }
 /* header */
 .sec-back-color{
@@ -108,4 +114,24 @@ main{
 }
 .item-dis{
     font-weight:600 ;
+}
+/* Skills */
+.skills{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    max-width: 267px;
+    height: 377px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+.skill-title{
+    font-size: 20px;
+}
+.skill-dis{
+    font-size: 16px;
+    font-weight: normal;
+    color: #757575;
 }
