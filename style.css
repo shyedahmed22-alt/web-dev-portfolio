@@ -185,3 +185,29 @@ input[type="text"], input[type="email"], footer textarea{
     margin-bottom: 24px;
     border: none;
 }
+/* responsive media query */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .skill-cont, .resume-cont, footer{
+        flex-direction: column;
+        padding: 10px;
+    }
+    footer{
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    input[type="text"], input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
+    .about{
+        padding: 20px;
+    }
+    .about-items{
+        flex-direction: column;
+    }
+    
+}
